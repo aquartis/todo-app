@@ -1,0 +1,54 @@
+.form_main{
+    width: 90%;
+    margin:0 auto;
+    background: rgba(175, 234, 236, 0.829);
+    animation: show linear 1s;
+}
+.form_inputs{
+    width: 100%;
+    align-items: flex-start;
+    label{
+        width: 100%;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        input, select, textarea{
+            margin:0 1rem;
+            width:60%;
+        }
+        input{
+            height: 5vh;
+        }
+        textarea{
+            height: 15vh;
+            resize: none;
+        }
+    }
+}
+.button_box{
+    margin-top:2rem;
+}
+.buttons{
+    background: transparent;
+    border:none;
+    outline: none;
+    padding:.5rem;
+    color:rgb(71, 71, 70);
+    text-transform: uppercase;
+    &:hover{
+        color:rgb(241, 248, 240);
+        transition: all 0.5s;
+    }
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+        margin-top:500px;
+    }
+    100%{
+        opacity: 1;
+        margin-top:0;
+    }
+}

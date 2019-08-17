@@ -1,0 +1,72 @@
+.main{
+    height: 100vh;
+}
+.tasks_block{
+    width:70%;
+    background: url(https://miro.medium.com/max/4800/1*5_JyY0t-JubQJkSgCM9WpQ.jpeg);
+    background-size: cover;
+}
+.task_box{
+    flex-wrap: wrap;
+}
+.filter_block{
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 3rem; 
+    background: rgba(175, 234, 236, 0.829);
+}
+.filter_button{
+    font-size: 1.5rem;
+    border:none;
+    background:transparent;
+    text-transform: uppercase;
+    color:rgb(71, 71, 70);
+    &:hover{
+        transition: all .5s;
+        color:#fff;
+    }
+}
+.taskCard{
+    position: relative;
+    width:30%;
+    margin:1%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(107, 106, 106, 0.733);
+    padding:1rem;
+}
+.taskCard.critical{
+    background: rgba(245, 10, 10, 0.747);
+}
+.taskCard.hight{
+    background: rgba(231, 115, 20, 0.842);
+}
+.taskCard.medium{
+    background: rgba(242, 245, 82, 0.74);
+}
+.taskCard.low{
+    background: rgba(68, 233, 68, 0.788);
+}
+.remove_button{
+    position: absolute;
+    top:3%;
+    right:3%;
+    color:rgb(127, 131, 131);
+    cursor: pointer;
+    &:hover{
+        font-size:1.3rem;
+        color:rgb(241, 248, 240);
+        transition: all 0.5s;
+    }
+}
+.result_buttons{
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    align-items: center;
+    color:rgb(127, 131, 131);
+    cursor: pointer;
+}
+.status_btns:hover{
+    color:rgb(241, 248, 240);
+    transition: all .5s;
+}
