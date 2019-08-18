@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/todo-app/static/css/main.ae69dd1d.chunk.css",
+    "main.js": "/todo-app/static/js/main.c5a81291.chunk.js",
+    "main.js.map": "/todo-app/static/js/main.c5a81291.chunk.js.map",
+    "runtime~main.js": "/todo-app/static/js/runtime~main.eca9ff85.js",
+    "runtime~main.js.map": "/todo-app/static/js/runtime~main.eca9ff85.js.map",
+    "static/js/2.77060bd4.chunk.js": "/todo-app/static/js/2.77060bd4.chunk.js",
+    "static/js/2.77060bd4.chunk.js.map": "/todo-app/static/js/2.77060bd4.chunk.js.map",
+    "index.html": "/todo-app/index.html",
+    "precache-manifest.f55f2ff95af6bdca5dd0ad3e2f35c348.js": "/todo-app/precache-manifest.f55f2ff95af6bdca5dd0ad3e2f35c348.js",
+    "service-worker.js": "/todo-app/service-worker.js",
+    "static/css/main.ae69dd1d.chunk.css.map": "/todo-app/static/css/main.ae69dd1d.chunk.css.map",
+    "static/media/index.css": "/todo-app/static/media/NunitoSans-Regular.990fe215.woff2"
+  }
+}
