@@ -16,7 +16,7 @@ componentDidMount(){
 }
 render(){
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='https://aquartis.github.io/todo-app'>
       <div className={styles.loggin_form}>
         <Route exact path='/' render={()=><LogginUserContainer/>}/>
         <Route path='/main' render={()=><MainScreen/>}/>
